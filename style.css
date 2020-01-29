@@ -1,0 +1,69 @@
+body{
+  margin: 0 auto;
+  font-family: 'Roboto:300', sans-serif;
+  font-weight: lighter;
+}
+
+h1, h2{
+  color: #ffffff;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 36px;
+}
+
+h2{
+  font-size: 24px;
+  font-weight: medium;
+  font-style: italic;
+}
+
+h3{
+  font-family: 'Bebas Neue', sans-serif;
+  color: #4b2d91;
+}
+
+a{
+  text-decoration: none;
+  background-color: #d8d3e5;
+  padding: 1%;
+  color: #544545;
+}
+
+a:hover{
+  background-color: #ef6b6b;
+  color: #ffffff;
+}
+
+.banner{
+  background-image: url(img/background.jpg);
+  background-size:cover;
+  padding: 120px 0;
+  margin: 0 auto;
+}
+
+.content-center{
+  width:700px;
+  margin: 0 auto;
+}
+
+@media(max-width: 992px) {
+  .content-center {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .content-center {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .content-center {
+    width: 300px;
+  }
+}
